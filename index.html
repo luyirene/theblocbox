@@ -4,190 +4,162 @@
    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta charset="UTF-8">
-   <title>Save, share and collaborate | Blocbox</title>
+   <title>Meriggiare Winery</title>
 
 
    <!-- Google Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Varela+Round' rel='stylesheet' type='text/css'>
+  <link href='<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,700" rel="stylesheet"> rel='stylesheet' type='text/css'>
 
 <!--CSS-->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/animate.css">
+<!--Bootstrap-->
+<link href="css/bootstrap.css" rel="stylesheet">
 
  </head>
 
  <body>
 <!-- Hero -->
- <header>
-   <nav class="container">
-     <div class="one-half">
-       <a href="index.html" class="site-logo"><img src="Images/site-logo.png" alt="theblocbox" /></a>
-     </div>
-     <div class="one-half">
-       <ul>
-         <li><a href="signin.html">Sign In</a></li>
-         <li class="btn-outline"><a href="signup.html">Sign Up</a></li>
-       </ul>
-     </div>
-   </nav>
-   <div class="container hero">
-     <h1 class="animated fadeIn">Save, share and collaborate.</h1>
-     <p>blocbox lets you collect and sort information.<br/>Create simple notes, store images, and add links.</p>
-     <a href="signup.html" class="btn">Start Your Free Trial!</a>
-     <img src="Images/dashboard.png" alt="theblocbox" />
-   </div>
- </header>
+<header>
+
+  <nav class= "navbar">
+  <div class="container-fluid">
+     <div class="navbar-header">
+        
+        <div class="col-md-1 ">
+          <a href="#" class="site-logo"><img src="Images/site-logo.png" alt="product-showcase" /></a>
+        </div>
+
+        <div class="col-md-8" >
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">VISIT US</a></li>
+            <li><a href="#">WINES</a></li>
+            <li><a href="#">CELLAR CLUB</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">MEMBERS</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+          <li class="navbar-right"><a href="login.html">LOGIN</a></li>
+          </ul>
+        </div>
+    
+    </div>
+  </div>
+  </nav>
+
+
+
+<div class="hero">
+  <img src="Images/Hero.png" alt="product-showcase"/>
+</div>
+</header>
+
 
 <main role="main">
-   <!-- Benefits -->
-   <section class="benefits">
-     <ul class="container" style="
-    overflow: hidden">
-
-       <li class="one-third">
-         <i class="fa fa-file-o" aria-hidden="true"></i>
-         <h2>Create notes</h2>
-         <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p>
-       </li>
-       <li class="one-third">
-         <i class="fa fa-picture-o" aria-hidden="true"></i>
-         <h2>Save images</h2>
-         <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>
-       </li>
-       <li class="one-third">
-        <i class="fa fa-link" aria-hidden="true"></i>
-         <h2>Add links</h2>
-         <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p>
-       </li>
-     </ul>
-   </section>
-
-
-   <!-- Pricing -->
- <section class="pricing">
-   <div class="container">
-     <h2>How much does blocbox cost?</h2>
-     <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>
-   
-   <ul class="container">
-     <li class="one-third">
-       <div class="box">
-         <h3>Casual</h3>
-         <h4>Free</h4>
-         <ul>
-           <li>Up to 5 boxes</li>
-           <li>Up to 10 collaborators</li>
-           <li><strong>2GB</strong> of storage</li>
-         </ul>
-         <a href="signup.html" class="btn">Start Your Free Trial!</a>
-       </div>
-     </li>
-     <li class="one-third">
-      <div class="box middle">
-        <h3>Professional</h3>
-        <h4><span>$</span>5 <span class="month">/month</span></h4>
-        <ul>
-          <li>Unlimited boxes</li>
-          <li>Up to 20 collaborators</li>
-          <li><strong>5GB</strong> of storage</li>
-          <li>Real-time collaboration</li>
-        </ul>
-        <a href="signup.html" class="btn">Start Your Free Trial!</a>
+<!-- Specs -->
+<section class="specs">
+  <ul class="container" >
+    <li class="col-md-6">
+      <h4>WINE SPECS</h4>
+        <div class="col-md-6 left">
+          <p>Vintage</p>
+          <p>Varietal</p>
+          <p>Appellation</p>
+          <p>Alcohol %</p>
+        </div>
+      <div class="col-md-6">
+        <p>2016</p>
+        <p>Chenin Blanc</p>
+        <p>Napa Valley</p>
+        <p>13.3</p>
       </div>
     </li>
-    <li class="one-third">
-      <div class="box">
-        <h3>Expert</h3>
-        <h4><span>$</span>10 <span class="month">/month</span></h4>
-        <ul>
-          <li>Unlimited boxes</li>
-          <li>Unlimited collaborators</li>
-          <li><strong>Unlimited</strong> storage</li>
-          <li>Real-time collaboration</li>
-        </ul>
-        <a href="signup.html" class="btn">Start Your Free Trial!</a>
-      </div>
-    </li>
-   </ul>
-   
-   
-   <p class="small">* We will not collect your credit card information until your 30-day trial has ended.</p>
- </div>
- </section>
+       <ul class="left col-md-3">
+         <p class="price">$23 / bottle</p>
+         <p class="price">$276 / case of 12</p> 
+       </ul>
+       <ul class="col-md-3">
+        <p><a class="btn" href="#">BUY BOTTLE</a></p>
+        <p><a class="btn" href="#">BUY CASE</a></p>
+       </ul>
 
-
- <!-- Testimonials -->
- <section class="testimonials">
-   <div class="container">
-     <h2>Who uses blocbox?</h2>
-     <p>blocbox has more than 100,000 satisfied users storing and collaborating<br/> with teams across the world. Here's what a few have to say:</p>
-   </div>
-   <ul class="container">
-     <li class="one-fourth">
-       <blockquote>"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier."
-       </blockquote>
-       <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="avatar">
-       <p class="name"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>
-     </li>  
-
-     <li class="one-fourth">
-     <div class="testbox">
-    <blockquote>"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier."
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="avatar">
-    <p class="name"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>
-  </li>
-  <li class="one-fourth">
-    <blockquote>"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier."
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="avatar">
-    <p class="name"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>
-  </li>
-  <li class="one-fourth">
-  <div class="testbox">
-    <blockquote>"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier."
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="avatar">
-    <p class="name"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>
-  </li>     
   </ul>
+</section>
+
+   <!-- Pictures -->
+ <section class="pictures">
+ <div class="container">
+   <div class="row">
+        <div class="col-md-5">
+          <div class="item-box2">
+          <img src="Images/toast.png">
+          </div>
+        </div>
+        <div class="col-md-7">
+        <div class="item-box">
+          <img src="Images/scallops.png">
+          </div>
+          <div class="item-box">
+          <img src="Images/cheese.png">
+          </div>
+        
+          
+    </div> 
+  </div>
  </section>
- </main>
 
-<!--Closing Call to action -->
-<section class="closing" style="clear: both">
-  <div class="container"  > 
 
-    <h2>Made for everyone</h2>
-      <p>blocbox is a flexible workspace where you can create, save, and share.  Keep your files personal or collaborate with a team </p> 
 
-      <a href="signup.html" class ="btn" >Explore blocbox with your free trial today! </a>
+<!--Description -->
+<section class="description"> 
+<div class="container ">
+    <div class="row"> 
+      <img src="Images/Wine.png">
+
+      <div class="sec">
+        <p>A crisp white variety that originated from the Loire Valley of France, the Chenin Blanc was once  the most widely planted  white grape of the Napa Valley a generation ago.  Today there are about 14 acres that are high in demand by a new generation of winemakres, who seek to create something special with this unique varietal.  Our winemaking team has created a limited production lot to showcase this elegant variety.     </p> 
+
+      </div>
+
+      <div> 
+        <h4> PRODUCTION NOTES </h4>
+        <p>This 2016 Chenin Blanc is the second vintage in Meriggiare’s exploration of the grapes in this appellation. With continued drough conditions, most of the growing season was characterized by warm days and cool nights.  The grapes were whole-cluster pressed, left to settle for a day before being transferred into barrels.  Stirring occurred weekly and the barrels were left to ferment for 8 months before bottling.    </p> 
+       
+    </div>
+     <div class="sec" > 
+        <h4> TASTING & PAIRINGS</h4>
+        <p>Chenin Blanc has a peach and tropical fruit on the nose with a hint of the traditional honeycomb, apple, and citrus.  The aromas on the palette are mirrored and give an even stronger presence with apple and citrus notes to finish with a crisp tarteness that adds to the wine’s refreshing character.  </p>
+        <p>Try this Chenin Blanc with a variety of seafood dishes including crab or scallops in a butter chive sauce or a grilled lemongrass chicken.  For a cheese course, select soft, creamy cheese such as brie, herb crusted goat cheese, or Gruyere.    </p>   
+  </div> 
+   
+      
+   
 </div>
 </section>
 
 
  <!-- Footer -->
- <footer>
-   <div class="container footer-nav-block">
-       <div class="left-footer-block one-third">
-         <p class="copyright-block">&copy; 2015. <strong>Blocbox</strong> - All Rights Reserved.</p>
-       </div>
-       <nav class="link-block middle-footer-block one-third">
+ <section class="footer">
+   <div class="col-md-7 col-md-push-2">       
+       <nav>
          <ul>
-           <li><a href="">Terms</a></li> /
-           <li><a href="">Privacy Policy</a></li> /
-           <li><a href="">Contact Us</a></li> /
-           <li><a href="">About Us</a></li> /
-           <li><a href="">Twitter</a></li>
+           <li><a href="">TERMS OF USE</a></li> 
+           <li><a href="">VISIT US</a></li> 
+           <li><a href="">TRADE & MEDIA</a></li> 
+           <li><a href="">CONTACT US</a></li> 
+
+           <p class="copyright-block">&copy; 2017. <strong>Meriggiare</strong> </p>
          </ul>
        </nav>
-       <div class="right-footer-block one-third">
-         <img class="logo" src="Images/site-logo.png" alt="theblocbox" />
-       </div>
-   </div>
- </footer>
+       
+  </div>
+ </section>
 
  </body>
  </html>
